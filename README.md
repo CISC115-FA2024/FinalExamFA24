@@ -34,12 +34,12 @@ o	Public member functions:
 	void deleteBook(int id): Deletes a book from the array by ID.
 
 Main Program:
-* Display a menu with options to:
-* Add a new book.
-* Display all books.
-* Update a book's details by ID.
-* Delete a book by ID.
-* Exit.
+Display a menu with options to:
+1. Add a new book.
+2. Display all books.
+3. Update a book's details by ID.
+4. Delete a book by ID.
+5. Exit.
 Use a loop to keep the program running until the user chooses to exit.
 
 
