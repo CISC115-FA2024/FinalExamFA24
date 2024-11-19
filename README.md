@@ -32,13 +32,13 @@ o	Public member functions:
 	void updateBook(int id, const std::string& title, const std::string& author, Genre genre): Updates a book's details by ID.
 	void deleteBook(int id): Deletes a book from the array by ID.
 4.	Main Program:
-o	Display a menu with options to:
+Display a menu with options to:
 1.	Add a new book.
 2.	Display all books.
 3.	Update a book's details by ID.
 4.	Delete a book by ID.
 5.	Exit.
-o	Use a loop to keep the program running until the user chooses to exit.
+Use a loop to keep the program running until the user chooses to exit.
 
 
 ## Sample Output
