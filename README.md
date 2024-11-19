@@ -32,12 +32,12 @@ o	Public member functions:
 	void updateBook(int id, const std::string& title, const std::string& author, Genre genre): Updates a book's details by ID.
 	void deleteBook(int id): Deletes a book from the array by ID.
 4.	Main Program:
-Display a menu with options to:
-1.	Add a new book.
-2.	Display all books.
-3.	Update a book's details by ID.
-4.	Delete a book by ID.
-5.	Exit.
+* Display a menu with options to:
+* 1.	Add a new book.
+* 2.	Display all books.
+* 3.	Update a book's details by ID.
+* 4.	Delete a book by ID.
+* 5.	Exit.
 Use a loop to keep the program running until the user chooses to exit.
 
 
@@ -51,10 +51,10 @@ Counterman’s Library Book Management System
 5. Exit
 Enter your choice: 1
 
-Enter Book ID: 101
-Enter Book Title: The Great Gatsby
-Enter Author: F. Scott Fitzgerald
-Enter Genre (0=Fiction, 1=NonFiction, 2=Mystery, 3=SciFi, 4=Biography, 5 = Romance, 6 = History, 7 = True Crime): 0
+* Enter Book ID: 101
+* Enter Book Title: The Great Gatsby
+* Enter Author: F. Scott Fitzgerald
+* Enter Genre (0=Fiction, 1=NonFiction, 2=Mystery, 3=SciFi, 4=Biography, 5 = Romance, 6 = History, 7 = True Crime): 0
 
 Book added successfully!
 
