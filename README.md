@@ -9,10 +9,10 @@ To create a C++ program that manages a collection of books in a library. The pro
 Write a C++ program to manage a list of books in a library. Each book has a unique ID, title, author, and genre. The genre should be represented as an enumeration (e.g., Fiction, NonFiction, Mystery, SciFi, etc.). The program should store books in an array and provide functions to add, display, update, and delete books.
 
 ## Requirements
-
-1.	Define an enum type Genre:
+Define an enum type Genre:
 o	Genre should represent book genres: Fiction, NonFiction, Mystery, SciFi, Romance, History, True Crime, and Biography.
-2.	Define a Book class:
+
+Define a Book class:
 o	Private member variables:
 	int id – A unique identifier for each book.
 	string title – The title of the book.
@@ -22,7 +22,8 @@ o	Public member functions:
 	BookCreator: Initializes the book's ID, title, author, and genre.
 	void display() const: Displays the book's details, including ID, title, author, and genre.
 	void setDetails(int id, const std::string& title, const std::string& author, Genre genre): A function to set book details.
-3.	Define a Library class:
+
+Define a Library class:
 o	Private member variables:
 	Book books[20] – An array to store up to 20 Book objects.
 	int bookCount – Keeps track of the number of books currently in the array.
@@ -31,13 +32,14 @@ o	Public member functions:
 	void displayAllBooks() const: Displays details of all books in the array.
 	void updateBook(int id, const std::string& title, const std::string& author, Genre genre): Updates a book's details by ID.
 	void deleteBook(int id): Deletes a book from the array by ID.
-4.	Main Program:
+
+Main Program:
 * Display a menu with options to:
-* 1.	Add a new book.
-* 2.	Display all books.
-* 3.	Update a book's details by ID.
-* 4.	Delete a book by ID.
-* 5.	Exit.
+* Add a new book.
+* Display all books.
+* Update a book's details by ID.
+* Delete a book by ID.
+* Exit.
 Use a loop to keep the program running until the user chooses to exit.
 
 
